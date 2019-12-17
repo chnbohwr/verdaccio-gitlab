@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/verdaccio.js"],"names":["globalTunnel","require","initialize"],"mappings":";;AAAA,MAAMA,eAAeC,QAAQ,kBAAR,CAArB;AACAD,aAAaE,UAAb;AACAD,QAAQ,yBAAR","file":"verdaccio.js","sourcesContent":["const globalTunnel = require('global-tunnel-ng');\nglobalTunnel.initialize();\nrequire('verdaccio/build/lib/cli');\n"]}

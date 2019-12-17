@@ -6,7 +6,6 @@
   },
   "scripts": {
     "type-check": "tsc --noEmit",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
     "license": "license-checker --onlyAllow 'Apache-2.0; Apache License, Version 2.0; BSD; BSD-2-Clause; BSD-3-Clause; ISC; MIT; Unlicense; WTFPL; CC-BY-3.0; CC0-1.0' --production",
     "type-check:watch": "npm run type-check -- --watch",
     "lint:ts": "eslint . --ext .js,.ts",
@@ -38,14 +37,6 @@
     "npm-registry"
   ],
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bufferoverflow/verdaccio-gitlab.git"
-  },
-  "homepage": "https://github.com/bufferoverflow/verdaccio-gitlab",
-  "bugs": {
-    "url": "https://github.com/bufferoverflow/verdaccio-gitlab/issues"
-  },
   "engines": {
     "node": ">=8"
   },
@@ -88,10 +79,5 @@
     "request": "^2.88.0",
     "rimraf": "^2.6.2",
     "typescript": "3.7.2"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   }
 }
